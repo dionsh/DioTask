@@ -1,13 +1,17 @@
 {
   "expo": {
-    "name": "Task-Management",
-    "slug": "Task-Management",
+    "name": "DioTask",
+    "slug": "diotask",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.dionsh21.diotask",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -19,6 +23,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "603d501c-d5ee-458c-b026-17119f5c12be"
+      }
     }
   }
 }
