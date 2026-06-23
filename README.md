@@ -1,7 +1,7 @@
 # DioTask 📝
 
 A modern, mobile-first **task manager** built with React Native (Expo), with a
-clean UI inspired by Todoist, TickTick and Microsoft To Do.
+clean UI.
 
 Create tasks with **due dates** and **priorities**, complete them with a tap or
 swipe, and **search, filter and sort** your list. Each user gets their own
